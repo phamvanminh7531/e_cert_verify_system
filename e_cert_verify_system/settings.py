@@ -58,6 +58,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'e_cert_verify_system.urls'
 
+CSRF_TRUSTED_ORIGINS = ['https://*.azurewebsites.net']
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
